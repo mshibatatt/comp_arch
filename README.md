@@ -1,0 +1,2 @@
+# essentials_computer_architecture
+コンピュータアーキテクチャのエッセンスを読む
