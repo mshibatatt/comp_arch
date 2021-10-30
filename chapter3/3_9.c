@@ -5,7 +5,7 @@
 #include <stdio.h>
 #include <limits.h>
 
-void main(){
+int main(){
     short int max_num = SHRT_MAX;
     short int nxt_num = max_num + 1;
 
@@ -17,4 +17,5 @@ void main(){
     }else{
         printf("not 2 complement\n");
     };
+    return 0;
 }

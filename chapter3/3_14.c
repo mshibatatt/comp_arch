@@ -7,7 +7,7 @@
 
 #include <stdio.h>
 
-void main(){
+int main(){
     int base_10[] = {0, 5, 65, 128, -1, -256};
     int base_2[] = {0b0, 0b101, 0b1000001, 0b10000000, 0b11111111111111111111111111111111, 0b11111111111111111111111100000000};
     int base_16[] = {0x0, 0x5, 0x41, 0x80, 0xFFFFFFFF, 0xFFFFFF00};
@@ -23,4 +23,5 @@ void main(){
         };
         printf("\n");
     };
+    return 0;
 };
