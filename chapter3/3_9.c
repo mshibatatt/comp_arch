@@ -7,9 +7,11 @@
 
 void main(){
     short int max_num = SHRT_MAX;
-    printf("max int is %d\n", max_num);
     short int nxt_num = max_num + 1;
+
+    printf("max int is %d\n", max_num);
     printf("next is %d\n", nxt_num); 
+    
     if(nxt_num == -max_num - 1){
         printf("2 complement\n");
     }else{
