@@ -17,4 +17,5 @@ int main() {
         printf("%02x", byteArray[i]);
         if (i % 4 == 3) printf(" ");
     }
+    cout << endl;
 }
