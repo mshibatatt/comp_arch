@@ -27,4 +27,4 @@ c.f. [メモリのアクセス時間とローカルメモリ](https://news.mynav
 - NP-Problem
     - Chaitin et al. showed that register allocation is a NP-complete problem. They reduce the graph coloring problem to the register allocation problem by showing that for an arbitrary graph, a program can be constructed such that the register allocation for the program (with registers representing nodes and machine registers representing available colors) would be a coloring for the original graph. As Graph Coloring is an NP-Hard problem and Register Allocation is in NP, this proves the NP-completeness of the problem
 
-from [Wikipedia](https://en.wikipedia.org/wiki/Register_allocation)
+from [Wikipedia](https://en.wikipedia.org/wiki/Register_allocation#Common_problems_raised_in_register_allocation)
