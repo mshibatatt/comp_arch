@@ -60,6 +60,7 @@
         "vector": "cpp",
         "deque": "cpp",
         "list": "cpp",
-        "string": "cpp"
+        "string": "cpp",
+        "chrono": "cpp"
     },
 }
