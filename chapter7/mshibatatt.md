@@ -20,6 +20,8 @@ c.f. [メモリのアクセス時間とローカルメモリ](https://news.mynav
 ## 7.11
 > ほとんどのコンパイラには頻繁に使われる変数をいちいちメモリに書き戻すよりレジスタに入れたままにしておくことを選ぶ最適化モジュールが含まれています。その最適化モジュールが回避している問題の性質にはどんな名前がありますか？
 
+問題の意味がよくわからないです。。メモリの読み込みが遅い問題に名前あるのでしょうか。下記はレジスタ割り当ての中身で直面してる問題についてです。
+
 - Aliasing
     - In some architectures, assigning a value to one register can affect the value of another: this is called aliasing. For example the x86 architecture has four general purpose 32-bit registers that can also be used as 16-bit or 8-bits registers. In this case, assigning a 32-bits value to the eax register will affect the value of the al register.
 - Pre-coloring
