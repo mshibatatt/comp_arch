@@ -10,17 +10,19 @@
 | 記憶階層                    | 1次記憶                                                                                                                                                                                                                                                                                                                                                                                                                             | 2次記憶                                                                                                                                                                                                                                                           | 
 | 定義                        | 任意のアドレスの記憶素子に対して随時、アクセスパターンに依存した待ち時間などを要することなく、読み出しや書き込みといった操作ができるメモリを指す語。しかし本来の意味からズレて、電源を落としても記録が消えないROM（これも本来の読み出し専用メモリからは意味がズレてきている。）に対して、電源が落ちれば記憶内容が消えてしまう短期メモリの意で使われている。                                                                         | 半導体メモリをディスクドライブのように扱える補助記憶装置の一種                                                                                                                                                                                                    | 
 | 典型例                      | DRAM：半導体DRAMは、記憶データをコンデンサ（キャパシタ）の電荷として蓄えているため、一定時間経つと自然放電によりデータが消えてしまう。そのため、定期的に情報を読み出し、再度書き込みをする必要がある。この動作を「リフレッシュ」といい、記憶を保持するためには1秒間に数十回の頻度で繰り返しリフレッシュを行う必要がある。DRAMは容量あたりのコストが低いという特徴がある。また、常にリフレッシュを行っているため、消費電力が大きい。 | 2021年時点で巷で「SSD」としてさかんに言及され、人々の間で盛んにHDDの代わりに導入が行われているのは主にフラッシュメモリを用いたもののことである。2018年現在、SSD内部の記憶用半導体素子には大記憶容量が比較的容易に得られるNAND型フラッシュメモリが使用されている。 | 
-| 出典                        | https://ja.wikipedia.org/wiki/Random_Access_Memory                                                                                                                                                                                                                                                                                                                                                                                  | https://ja.wikipedia.org/wiki/%E3%82%BD%E3%83%AA%E3%83%83%E3%83%89%E3%82%B9%E3%83%86%E3%83%BC%E3%83%88%E3%83%89%E3%83%A9%E3%82%A4%E3%83%96                                                                                                                        | 
+| 出典                        | [wikipedia](https://ja.wikipedia.org/wiki/Random_Access_Memory)                                                                                                                                                                                                                                                                                                                                                                                  | [wikipedia](https://ja.wikipedia.org/wiki/%E3%82%BD%E3%83%AA%E3%83%83%E3%83%89%E3%82%B9%E3%83%86%E3%83%BC%E3%83%88%E3%83%89%E3%83%A9%E3%82%A4%E3%83%96)                                                                                                                        | 
 
 
 バイトあたりのコスト（費用）(US$) 
 - DRAM: $1 \div 5000000000 \times 8 = 1.6\times 10^{-9}$ (http://www.singularity.com/charts/page58.html)
-- SSD: $40000 \div (100 \times 10^{9})=4.0 \times 10^{-5}$ (A new version of the 100 TB SSD was launched in 2020 at a price of US$40,000, with the 50 TB version costing US$12,500. According to https://en.wikipedia.org/wiki/Solid-state_drive)
+- SSD: $40000 \div (100 \times 10^{12})=4.0 \times 10^{-10}$ (A new version of the 100 TB SSD was launched in 2020 at a price of US$40,000, with the 50 TB version costing US$12,500. According to https://en.wikipedia.org/wiki/Solid-state_drive)
 
 
 
 ## 10.8
 > NVRAMと従来のRAMの性能を比較してください。NVRAMは、どれほど低速ですか？
+
+下の記述は相変化メモリのことで、NVRAMのひとつのPrameter-RAMのことでもなかったです。NVRAMのスピードがわかりませんでした。。。
 
 SRAM(DRAMと対になるRAMでDRAMより速い)が10nsで、フラッシュメモリはその10,000倍かかる。NVRAMの一種であるPRAMはフラッシュメモリの数千倍速いので、従来のRAMと比べて最大10倍遅い。
 
