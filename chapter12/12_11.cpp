@@ -63,7 +63,7 @@ int main() {
             c.read(row, column);
         }
     }
-    cout << "Row   : " << c.hit << " (" << (double)c.hit / (1000*1000) << "%)"<< endl;
+    cout << "Row   : " << c.hit << " (" << (double)c.hit*100.0 / (1000*1000) << "%)"<< endl;
 
     // 列ごと
     c.reset();
@@ -72,5 +72,5 @@ int main() {
             c.read(row, column);
         }
     }
-    cout << "Column: " << c.hit << " (" << (double)c.hit / (1000*1000) << "%)"<< endl;
+    cout << "Column: " << c.hit << " (" << (double)c.hit*100.0 / (1000*1000) << "%)"<< endl;
 }
